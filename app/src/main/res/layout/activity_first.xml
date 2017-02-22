@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/trybg">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/caption"
+        android:textColor="@color/dark_pink"
+        android:textStyle="italic"
+        android:id="@+id/selectPhoto"
+        android:textSize="@dimen/thirty"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/forty"
+        android:text="@string/add_frame"
+        android:textSize="@dimen/twenty"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+        android:background="@drawable/buttons"
+        android:id="@+id/add_f"
+        android:layout_below="@+id/seperator"
+        android:layout_alignRight="@+id/color_b"
+        android:layout_alignEnd="@+id/color_b"
+        android:layout_alignLeft="@+id/color_b"
+        android:layout_alignStart="@+id/color_b" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/forty"
+        android:text="@string/color_building"
+        android:textSize="@dimen/twenty"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+        android:id="@+id/color_b"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="@dimen/eighty_three"
+        android:layout_below="@+id/selectPhoto"
+        android:layout_alignRight="@+id/selectPhoto"
+        android:layout_alignEnd="@+id/selectPhoto"
+        android:layout_alignLeft="@+id/selectPhoto"
+        android:layout_alignStart="@+id/selectPhoto" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text=""
+        android:id="@+id/seperator"
+        android:background="@null"
+        android:layout_below="@+id/color_b"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>

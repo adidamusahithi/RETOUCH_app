@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trybg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/guide"
+        android:textColor="@color/blue_ash"
+        android:textStyle="bold|italic"
+        android:id="@+id/guide"
+        android:layout_marginTop="@dimen/one_seventy"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_frame_c"
+        android:textSize="@dimen/forty"
+        android:textColor="@color/dark_pink"
+        android:textStyle="italic"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="@dimen/three_twenty"
+        android:layout_height="@dimen/forty"
+        android:text="Select photo"
+        android:textSize="@dimen/twenty"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+        android:id="@+id/pic_b"
+        android:background="@drawable/buttons"
+        android:layout_marginBottom="109dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

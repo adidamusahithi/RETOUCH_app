@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Retouch</string>
+    <string name="caption">Visualize Your Thoughts</string>
+    <string name="color_building">Color Bulding</string>
+    <string name="add_frame">Add Frame</string>
+    <string name="add_frame_c">ADD FRAME</string>
+    <string name="add_pic">Add PIC</string>
+    <string name="edited_image">EDITED IMAGE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="save">SAVE</string>
+    <string name="back">BACK</string>
+    <string name="guide">first select your wall\n\n and then your frame..</string>
+
+</resources>
